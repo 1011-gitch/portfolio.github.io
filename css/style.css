@@ -1,0 +1,91 @@
+#main-header img {
+  height: 100%;
+  width: 100%;
+}
+#main-header i {
+  color: white;
+}
+#main-header .ex {
+  background: #000;
+}
+#main-header .port-item {
+  width: 30%;
+}
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+#home .intro-area {
+  min-height: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#home .skills-area {
+  min-height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.progress {
+  height: 0.5rem;
+}
+#resume {
+  min-height: 120px;
+  padding-bottom: 10px;
+}
+#resume .resume-area {
+  color: white;
+  padding: 20px 10px;
+}
+#resume .resume-subarea {
+  padding: 20px 10px;
+}
+#work .work-area {
+  color: #fff;
+  min-height: 120px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#work .work-subarea {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bg-dark {
+  min-height: 120px;
+  background: #000;
+}
+@media (min-width: 1199px) {
+  #main-header .port-item {
+    padding: 4em !important;
+  }
+}
+@media (min-width: 320px) {
+  #main-header .title {
+    font-size: 1.4rem;
+    padding: 10px 2px;
+  }
+}
+@media (min-width: 576px) {
+  #main-header .socio {
+    padding: 40px 30px;
+  }
+}
+@media (min-width: 768px) {
+  #main-header .socio {
+    padding: 40px 10px;
+  }
+  #main-header .title {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1300px) {
+  #main-header .socio {
+    padding: 40px 40px;
+  }
+  #main-header .title {
+    font-size: 2.6rem;
+  }
+}
